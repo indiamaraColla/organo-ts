@@ -16,8 +16,15 @@ const TextField = ({ toAlter, placeholder, label, value, required = false }: Tex
 
   return (
     <div className="text-field">
-      <label>{label}</label>
-      <input value={value} onChange={toTyped} required={required} placeholder={placeholderModificada} />
+      <label htmlFor={label}>{label}</label>
+      <input
+        id={label}
+        data-testid={label}
+        value={value}
+        onChange={toTyped}
+        required={required}
+        placeholder={placeholderModificada}
+      />
     </div>
   )
 }

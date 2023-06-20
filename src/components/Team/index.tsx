@@ -1,24 +1,15 @@
 import Collaborator from '../Collaborator'
 import './Team.css'
+import { TeamProps } from './type'
 
-interface ListProps {
-  position: string
-  name: string
-  image: string
-}
-
-interface TeamProps {
-  secondary: string
-  primary: string
-  name: string
-  collaborators: ListProps[]
-}
 const Team = ({ collaborators, secondary, primary, name }: TeamProps) => {
   const css = { backgroundColor: secondary }
 
   return collaborators.length > 0 ? (
-    <section className="team" style={css}>
-      <h3 style={{ borderColor: primary }}>{name}</h3>
+    <section className="team" style={css} data-testid="team">
+      <h3 style={{ borderColor: primary }} data-testid="primary">
+        {name}
+      </h3>
       <div className="collaborators">
         {collaborators.map((colaborador) => (
           <Collaborator

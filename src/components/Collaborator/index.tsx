@@ -3,8 +3,8 @@ import './Collaborator.css'
 
 const Collaborator = ({ name, image, position, backgroundColor }: ICollaborator) => {
   return (
-    <div className="collaborator">
-      <div className="header" style={{ backgroundColor: backgroundColor }}>
+    <div className="collaborator" data-testid="collaborator-list">
+      <div className="header" style={{ backgroundColor: backgroundColor }} data-testid="collaborator-primary">
         <img src={image} alt={name} />
       </div>
       <div className="baseboard">

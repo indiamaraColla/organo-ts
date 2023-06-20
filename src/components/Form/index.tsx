@@ -26,13 +26,15 @@ const Form = ({ onCollaboratorCreated, teams }: FormProps) => {
 
   const onSave = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    onCollaboratorCreated(formState)
-    setFormState({
-      name: '',
-      position: '',
-      image: '',
-      team: '',
-    })
+    if (formState.name && formState.position && formState.team) {
+      onCollaboratorCreated(formState)
+      setFormState({
+        name: '',
+        position: '',
+        image: '',
+        team: '',
+      })
+    }
   }
 
   const handleChange = (fieldName: keyof FormState, value: string) => {
@@ -44,7 +46,7 @@ const Form = ({ onCollaboratorCreated, teams }: FormProps) => {
 
   return (
     <section className="form-group">
-      <form onSubmit={onSave}>
+      <form onSubmit={onSave} data-testid="form">
         <h2>Preencha os dados para criar o card do collaborator</h2>
         <TextField
           required={true}
