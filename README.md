@@ -22,6 +22,7 @@ Se liga nessa lista de tudo que usaremos nessa formação:
 - `React`
 - `React Hooks`
 - `TypeScript`
+- `Jest - Testing Library`
 
 E muito mais!
 
