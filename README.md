@@ -7,6 +7,8 @@ O objetivo ao clonar o projeto foi migrar ele de forma independente para Typescr
 
 Nesse projeto também foi realizado a alteração de algumas nomenclaturas em relação ao projeto inicial (classes, pastas, funções etc...).
 
+Além de implementar testes com Jest e Testing Library.
+
 <img src="screencapture.png" alt="Imagem do Organo" width="50%">
 
 ## 🔨 Funcionalidades do projeto
