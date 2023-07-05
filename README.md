@@ -1,4 +1,4 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+![Integrando seu projeto React com APIs]
 
 # Organo
 
