@@ -2,7 +2,7 @@
 
 # Organo
 
-O projeto Organo é uma aplicação desenvolvida no curso <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">"React: desenvolvendo com JavaScript pela Alura". O objetivo deste projeto foi realizar a migração do código de JavaScript para TypeScript, uma vez que ele foi originalmente criado e desenvolvido em JavaScript.
+O projeto Organo é uma aplicação desenvolvida no curso [React: desenvolvendo com JavaScript pela Alura](https://cursos.alura.com.br/course/react-desenvolvendo-javascript). O objetivo deste projeto foi realizar a migração do código de JavaScript para TypeScript, uma vez que ele foi originalmente criado e desenvolvido em JavaScript.
 
 <br>
 
