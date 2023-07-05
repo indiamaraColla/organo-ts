@@ -8,10 +8,9 @@ O projeto Organo é uma aplicação desenvolvida no curso <a href="https://curso
 
 ## Desafio Proposto
 
-<br>
-Durante a migração para TypeScript, também foram realizadas alterações nas nomenclaturas relacionadas a classes, pastas, funções, entre outros elementos do projeto.
+- Migrar o projeto de JavaScript para TypeScript para melhorar a segurança e a manutenção do código. 
 
-Além disso, foi implementado o uso de testes utilizando as bibliotecas Jest e Testing Library.
+- Implementar testes para aumentar a cobertura de testes do projeto. 
 
 <img src="screencapture.png" alt="Imagem do Organo" width="50%">
 
