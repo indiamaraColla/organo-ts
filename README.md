@@ -2,12 +2,16 @@
 
 # Organo
 
-O Organo é aplicação desenvolvida no curso <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">React: desenvolvendo com JavaScript</a>.
-O objetivo ao clonar o projeto foi migrar ele de forma independente para Typescript, já que ele foi criado e desenvolvido em Javascript.
+O projeto Organo é uma aplicação desenvolvida no curso <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">"React: desenvolvendo com JavaScript pela Alura". O objetivo deste projeto foi realizar a migração do código de JavaScript para TypeScript, uma vez que ele foi originalmente criado e desenvolvido em JavaScript.
 
-Nesse projeto também foi realizado a alteração de algumas nomenclaturas em relação ao projeto inicial (classes, pastas, funções etc...).
+<br>
 
-Além de implementar testes com Jest e Testing Library.
+## Desafio Proposto
+
+<br>
+Durante a migração para TypeScript, também foram realizadas alterações nas nomenclaturas relacionadas a classes, pastas, funções, entre outros elementos do projeto.
+
+Além disso, foi implementado o uso de testes utilizando as bibliotecas Jest e Testing Library.
 
 <img src="screencapture.png" alt="Imagem do Organo" width="50%">
 
